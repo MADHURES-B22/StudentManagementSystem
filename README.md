@@ -82,10 +82,6 @@ It requires:
 
 
 
-Example:
-```java
-Connection con = DriverManager.getConnection(url, username, password);
-
 
 
 
@@ -106,11 +102,11 @@ Create a table:
 
 CREATE TABLE students (
 
-&nbsp;   id INT AUTO\_INCREMENT PRIMARY KEY,
+   id INT AUTO\_INCREMENT PRIMARY KEY,
 
-&nbsp;   name VARCHAR(50),
+   name VARCHAR(50),
 
-&nbsp;   age INT
+   age INT
 
 );
 
@@ -179,5 +175,6 @@ Enter Name: Loga
 Enter Age: 21
 
 ✅ Record inserted successfully!
+
 
 
