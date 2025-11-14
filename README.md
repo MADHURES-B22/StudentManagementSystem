@@ -83,9 +83,7 @@ It requires:
 
 
 Example:
-
 ```java
-
 Connection con = DriverManager.getConnection(url, username, password);
 
 
@@ -98,23 +96,13 @@ Connection con = DriverManager.getConnection(url, username, password);
 
 🖥️ How to Run
 
-
-
 1\. Clone the Repository
-
 git clone https://github.com/your-username/StudentManagementSystem.git
-
 cd StudentManagementSystem
 
-
-
 2\. Setup MySQL Database
-
 Create a new database named testdb in MySQL.
-
 Create a table:
-
-
 
 CREATE TABLE students (
 
@@ -191,4 +179,5 @@ Enter Name: Loga
 Enter Age: 21
 
 ✅ Record inserted successfully!
+
 
